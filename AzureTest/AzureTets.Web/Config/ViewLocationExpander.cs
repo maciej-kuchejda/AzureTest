@@ -15,7 +15,7 @@ namespace AzureTets.Web.Config
 
         public IEnumerable<string> ExpandViewLocations(ViewLocationExpanderContext context, IEnumerable<string> viewLocations)
         {
-            string[] locations = new string[] { "/Pages/{2}/{1}/{0}.cshtml" };
+            string[] locations = new string[] { "/Pages/{1}/{0}.cshtml" };
             return locations.Union(viewLocations);
         }
     }
