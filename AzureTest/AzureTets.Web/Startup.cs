@@ -31,7 +31,7 @@ namespace AzureTets.Web
 
             services.AddDbContext<DbContext>(options =>
             {
-                options.UseSqlite("Data Source=Database.db");
+                options.UseInMemoryDatabase(Guid.NewGuid().ToString());
             });
 
             services.AddScoped<ICardRepository, CardRepository>();

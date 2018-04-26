@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTets.Web", "AzureTets.Web\AzureTets.Web.csproj", "{CE8FA273-ADEB-403D-BA64-504C0FBFA071}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTets.Web", "AzureTets.Web\AzureTets.Web.csproj", "{CE8FA273-ADEB-403D-BA64-504C0FBFA071}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{DFAB6834-9702-45CF-8F72-0798687CAC58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTest.DataContext", "AzureTest.DataContext\AzureTest.DataContext.csproj", "{9E0A4AB0-6EDB-45CB-B090-3EF4E07938D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTest.DataContext", "AzureTest.DataContext\AzureTest.DataContext.csproj", "{9E0A4AB0-6EDB-45CB-B090-3EF4E07938D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTets.Tests", "AzureTets.Tests\AzureTets.Tests.csproj", "{289CE8F9-4E26-4F07-A37B-5A49FCC072D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{9E0A4AB0-6EDB-45CB-B090-3EF4E07938D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E0A4AB0-6EDB-45CB-B090-3EF4E07938D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E0A4AB0-6EDB-45CB-B090-3EF4E07938D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289CE8F9-4E26-4F07-A37B-5A49FCC072D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289CE8F9-4E26-4F07-A37B-5A49FCC072D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289CE8F9-4E26-4F07-A37B-5A49FCC072D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289CE8F9-4E26-4F07-A37B-5A49FCC072D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

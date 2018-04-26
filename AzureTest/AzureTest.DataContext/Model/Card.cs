@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AzureTest.DataContext
+namespace AzureTest.DataContext.Model
 {
     public class Card
     {

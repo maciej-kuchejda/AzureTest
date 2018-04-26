@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AzureTest.DataContext;
 using AzureTest.DataContext.Context;
+using AzureTest.DataContext.Model;
 using AzureTest.DataContext.Repository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -36,8 +37,9 @@ namespace AzureTets.Web.Controllers.api
 
         // POST api/<controller>
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]Card value)
         {
+            _repo.Post(value);
         }
 
         // PUT api/<controller>/5
